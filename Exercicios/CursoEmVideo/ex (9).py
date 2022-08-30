@@ -1,0 +1,23 @@
+n = int(input('quer saber a tabuada de qual numero? '))
+inc = 1
+
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1
+print(n,'x {:^2} = {:^2}'.format(inc, n*inc))
+inc = inc+1

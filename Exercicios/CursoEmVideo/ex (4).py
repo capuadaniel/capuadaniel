@@ -1,0 +1,8 @@
+teste = input('digite o que te vier na telha e dê enter: ')
+print(type(teste))
+print('O que você digitou contém:')
+print('letras:',teste.isalpha())
+print('números:',teste.isnumeric())
+print('letras minusculas:',teste.islower())
+print('letras maisusculas:',teste.isupper())
+print('apenas espaços:',teste.isspace())
