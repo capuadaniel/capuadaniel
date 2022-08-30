@@ -1,0 +1,40 @@
+# Reescreva a função leiaInt()  do ex 104 incluindo agora a posbilidade de digitar um numero invalido e crie um leia float tmb
+from UtilidadesCeV.dados import leiaInt, leiaFloat
+
+'''a = leiaInt(5)
+print(a)
+a = leiaInt('')
+print(a)
+a = leiaInt('  ')
+print(a)
+a = leiaInt('')
+print(a)
+a = leiaInt('oito')
+print(a)
+a = leiaInt('2.3')
+print(a)
+a = leiaInt('2,5')
+print(a)
+
+b = leiaFloat('5')
+print(b)
+b = leiaFloat('')
+print(b)
+b = leiaFloat('  ')
+print(b)
+b = leiaFloat('')
+print(b)
+b = leiaFloat('oito')
+print(b)
+b = leiaFloat('2.3')
+print(b)
+b = leiaFloat('2,5')
+print(b)
+b = leiaFloat('4.0')
+print(b)
+'''
+#após testado com valores diversos testar input
+
+a = leiaInt("digite um inteiro: ")
+b = leiaFloat("digite um real: ")
+print(f'O valor inteiro digitado foi {a} e o real foi {b}')
